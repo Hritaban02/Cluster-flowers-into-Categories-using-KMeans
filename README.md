@@ -11,7 +11,7 @@ Here we use the **Elbow Method**, to find the optimum number of clusters.
 ## Without Principal Component Analysis
 
 Then we use the K-Means++ algorithm to find the clusters and avoid the random initialization trap.
-Here's what it looks like when plotted against Sepal length and Sepal Width...
+Here's what it looks like when plotted against Sepal length and Sepal Width both standardised...
 
 ![Clustering_without_PCA](https://user-images.githubusercontent.com/66300295/120438701-53518580-c39f-11eb-9473-4cd80110d3bf.png)
 
