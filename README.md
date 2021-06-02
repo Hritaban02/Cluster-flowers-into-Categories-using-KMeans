@@ -8,10 +8,14 @@ Here we use the **Elbow Method**, to find the optimum number of clusters.
 
 **Note**: The drop in the parameter WCSS(Within Cluster Sum Of Squares of distance from centroid) is negligibe after K = 3. Therefore K = 3 is the optimum number of clusters.
 
+## Without Principal Component Analysis
+
 Then we use the K-Means++ algorithm to find the clusters and avoid the random initialization trap.
 Here's what it looks like when plotted against Sepal length and Sepal Width...
 
 ![Clustering_without_PCA](https://user-images.githubusercontent.com/66300295/120334589-610afa80-c30e-11eb-9733-ea3cd6e8b119.png)
+
+## With Principal Component Analysis
 
 In Clustering_with_PCA.ipynb we use Prinicipal Component analysis to reduce the dimensionality of the dataset and reduce the matrix of features to two principal components.
 Here's what it looks like when plotted against Principal Component 1 and 2...
